@@ -1,0 +1,64 @@
+MARK 1
+------------------
+make prototypes of
+
+->Home page
+->loading
+->output page
+
+status : Done
+
+
+MARK 2
+------------------
+make advanced modifications
+
+common 
+Light and dark Theme as bg image and relative
+
+->Home page
+	image upload restricting to jpg
+	image resolution change after upload
+	all fields mandatory
+	add download last genereated result button (download from cache memory)
+->loading
+	progress label need to be added ( like 100/200 epoches)
+->output page
+	try to make ballon animation slow
+	add sample image to view
+	download image button
+
+
+status : Pending
+
+
+MARK 3
+------------------
+core functionality
+
+need to code 
+	the vgg 19 model for image style transfer
+	execute in normal python compiler
+
+status : Pending
+
+
+MARK 4
+------------------
+integration
+
+Integrate the core functionaliy code w.r.t the UI made using streamlit
+
+status : Pending
+
+
+MARK 5
+------------------
+Deployment
+
+Deploy the finished product as website 
+	using GitHub as Host
+	Need GitHub account for our end product
+
+status : Pending
+
