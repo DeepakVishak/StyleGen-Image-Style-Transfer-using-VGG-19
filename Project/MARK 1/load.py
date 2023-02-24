@@ -33,11 +33,13 @@ class Load(json_file):
             key=None,
         )
 
+        progress_label = "Loading model..."
         progress = st.progress(0)
         for i in range(100):
             time.sleep(0.1)
-            progress.progress(i + 1)
-        #renderer = "svg",  # canvas
+            progress_text = f"{progress_label} {i+1}/100"
+            progress.progress(i + 1,text=progress_text)
+
 
 l = Load()
 l.display()

@@ -159,7 +159,7 @@ class Core:
         style_reference_image = self.preprocess_image(self.style_reference_image_path)
         combination_image = tf.Variable(self.preprocess_image(self.base_image_path))
 
-        for i in range(1,   self.epoch+ 1):
+        for i in range(1,self.epoch+ 1):
             loss, grads = self.compute_loss_and_grads(
                 combination_image, base_image, style_reference_image
             )
