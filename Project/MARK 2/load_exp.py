@@ -1,6 +1,8 @@
 import streamlit as st
 from streamlit_lottie import st_lottie
 import json
+
+
 import time
 
 class json_file:
@@ -34,19 +36,16 @@ class Load(json_file):
         )
 
 
-        """
+
         for i in range(100):
             time.sleep(0.1)
-            progress.progress(i + 1)
+            self.load_progress_bar(i+1)
         #renderer = "svg",  # canvas
-        """
 
-class Core(Load):
 
-    def __init__(self):
 
-        self.base_image_path=""
-        self.style_reference_image_path=""
+
+
 
 l = Load()
 l.display()

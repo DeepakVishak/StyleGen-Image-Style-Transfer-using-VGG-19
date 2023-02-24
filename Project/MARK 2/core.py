@@ -71,8 +71,8 @@ def total_variation_loss(x):
     return tf.reduce_sum(tf.pow(a + b, 1.25))
 
 
-base_image_path = "img1.jpeg"
-style_reference_image_path = "img2.jpeg"
+base_image_path = "mona.jpg"
+style_reference_image_path = "picasso.jpg"
 result_prefix = "generated"
 
 # Weights of the different loss components

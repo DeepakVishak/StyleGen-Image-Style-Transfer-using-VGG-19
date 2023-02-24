@@ -169,7 +169,7 @@ def main_function():
     style_reference_image = preprocess_image(style_reference_image_path)
     combination_image = tf.Variable(preprocess_image(base_image_path))
 
-    iterations = 2000
+    iterations = 200
     for i in range(1, iterations + 1):
         loss, grads = compute_loss_and_grads(
         combination_image, base_image, style_reference_image
