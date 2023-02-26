@@ -27,21 +27,21 @@ class MainProgram:
     def mainprogram_display(self):
 
         # Define the options for the side menu
-        options = ["Homepage", "Try StyleGen"]
+        options = ["🏠 Homepage", "🖌️ Try StyleGen"]
 
         # Set the default option to "Homepage"
-        selected_option = options.index("Homepage")
+        selected_option = options.index("🏠 Homepage")
 
         # Create the side menu
         selected_option = st.sidebar.selectbox("Select an option", options)
 
         # Show the appropriate page based on the selected option
-        if selected_option == "Homepage":
+        if selected_option == "🏠 Homepage":
             self.show_homepage()
-        elif selected_option == "Try StyleGen":
+        elif selected_option == "🖌️ Try StyleGen":
             self.show_stylegen()
 
 
 mp = MainProgram()
-st.set_page_config(layout="wide")
+st.set_page_config(page_title="StyleGen",layout="wide",page_icon="🖌️")
 mp.mainprogram_display()

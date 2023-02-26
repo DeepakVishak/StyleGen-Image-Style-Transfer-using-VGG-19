@@ -16,9 +16,14 @@ class Output:
     def output_display(self):
 
         st.balloons()
-        st.title("StyleGen")
-        st.header("Image Style Transfer using VGG - 19")
-        st.subheader("Here is the output!!!")
+        st.write("""""")
+        st.write("""""")
+        st.write("""""")
+        st.title("🖌️ StyleGen")
+        st.markdown("""
+        ## Image Style Transfer using VGG - 19
+        ### Here is the output!!!
+        """)
         #st.image(self.image)
 
         # Convert image to bytes
@@ -55,7 +60,10 @@ class Load(json_file):
         #self.progress = st.progress(0)
         self.progress = None
     def load_display(self):
-        st.title("Image Style Transfer using VGG - 19")
+        st.write("""""")
+        st.write("""""")
+        st.write("""""")
+        st.title("⚙ Image Style Transferring")
         file = json_file.load_lottiefile("load.json")
         print(file)
 
@@ -285,7 +293,7 @@ class Main:
 
     def main_display(self):
 
-        st.title("StyleGen")
+        st.title("🖌️ StyleGen")
         st.subheader("Image Style Transfer using VGG - 19")
         self.photo_upload = st.file_uploader(label="Photo Upload", type=['jpeg','jpg','png'], accept_multiple_files=False,
                                              key="photo_upload")
@@ -313,6 +321,7 @@ class Main:
             except Exception as e:
                 st.error("Please upload files in JPEG/JPG/PNG format.")
                 st.write(e)
+
 
 
 

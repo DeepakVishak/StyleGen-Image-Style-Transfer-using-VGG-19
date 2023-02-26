@@ -26,7 +26,7 @@ class Home(json_file):
         left, right = st.columns(2)
         with left:
             st.markdown("""
-    # StyleGen
+    # 🖌️ StyleGen
     ## Image Style Transfer Using VGG-19 
     ### _Transform ordinary photos into extraordinary works of art._
             """)
@@ -70,10 +70,10 @@ class WhatWeDo(json_file):
         st.write("""""")
         st.write("""""")
         st.write("""""")
-        st.title("What We Do!!!")
+        st.title("🦄 What We Do!!!")
         left, right = st.columns(2)
         with right:
-            resized_image = self.image.resize((1000, 500))
+            resized_image = self.image.resize((800, 500))
             st.image(resized_image)
 
         with left:
@@ -100,6 +100,12 @@ class WhatWeDo(json_file):
         """,
         unsafe_allow_html=True
         )
+        st.markdown(
+            "<p style='text-align: center; font-size: 15pt; font-style: italic;'>\"StyleGen is an appliction in which you can apply the style of one image to another image while preserving its content.\"</p>",
+            unsafe_allow_html=True)
+
+        #st.markdown("<p style=\"text-align: center; font-size: 15pt; font-style: italic;\">Image style transfer is the process of applying the style of one image to another image while preserving its content.</p>", unsafe_allow_html=True)
+
 
 class HowToUse:
 
@@ -113,7 +119,7 @@ class HowToUse:
         st.write("""""")
         st.write("""""")
         st.write("""""")
-        st.title("How to Use StyleGen")
+        st.title("💡 How to Use StyleGen")
         st.subheader("Follow these simple steps to generate stylish images:")
 
         # step 2
@@ -164,7 +170,7 @@ class Contact:
         )
         """
         # Add header
-        st.title("Contact Us")
+        st.title("📝 Contact Us")
 
         # Add contact form
         with st.form("contact_form"):
