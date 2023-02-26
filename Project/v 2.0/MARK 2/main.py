@@ -2,7 +2,7 @@ import streamlit as st
 import core
 import os
 
-class Home:
+class Main:
 
     def __init__(self):
         self.photo_upload = None
@@ -10,7 +10,7 @@ class Home:
         self.epoch = 200
         self.params = []
 
-    def home_parameters_return(self):
+    def main_parameters_return(self):
 
         photo_file_path = os.path.join(os.path.dirname(__file__), self.photo_upload.name)
         style_file_path = os.path.join(os.path.dirname(__file__), self.style_upload.name)
@@ -24,11 +24,11 @@ class Home:
 
     def call_core(self):
 
-        p = self.home_parameters_return()
+        p = self.main_parameters_return()
         c = core.Core(p[0], p[1], p[2])
         c.image_style_processing()
 
-    def home_display(self):
+    def main_display(self):
 
         st.title("StyleGen")
         st.subheader("Image Style Transfer using VGG - 19")
@@ -60,8 +60,8 @@ class Home:
                 st.write(e)
 
 
-home = Home()
-home.home_display()
+main = Main()
+main.main_display()
 
 
 
