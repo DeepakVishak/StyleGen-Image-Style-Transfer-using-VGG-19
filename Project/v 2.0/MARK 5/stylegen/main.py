@@ -248,6 +248,13 @@ class Core(Load):
                 combination_image, base_image, style_reference_image
             )
             optimizer.apply_gradients([(grads, combination_image)])
+            progress_scale = i/self.epoch
+            img = self.deprocess_image(combination_image.numpy())
+            #fname = self.result_prefix + "_at_iteration_%d.png" % i
+            # keras.preprocessing.image.save_img(fname, img)
+            progress_text = f"{progress_label} {i}/{self.epoch} and Loss = {loss:.2f}"
+            self.progress.progress(progress_scale, text=progress_text)
+            """
             partition = (100//(self.epoch/100))/100
 
             if i % 100 == 0:
@@ -259,6 +266,7 @@ class Core(Load):
                 self.progress.progress(partition * count, text=progress_text)
                 count+=1
                 #print(partition,count,partition*count)
+            """
 
         out = Output(img)
         st.session_state.current_page = out

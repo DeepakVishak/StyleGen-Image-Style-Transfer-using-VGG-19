@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <title>StyleGen</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="icon.png">
+</head>
+<body>
+    <div class="container">
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#Home">🖌️StyleGen</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#working">How It Works</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#photo-samples">PhotoSamples</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-us">Contact Us</a>
+              </li>
+              <li class="nav-item" style="
+              margin: 5px;
+              padding: 2px;
+          ">
+                <div class="form-check form-switch">
+                  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                  <label class="form-check-label" for="flexSwitchCheckDefault">DarkMode</label>
+                </div>
+              </li>
+              <li class="nav-item">
+                <button type="button" class="btn btn-primary ml-2">Try StyleGen</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!--Home Page-->
+    
+    <section id="Home">
+        <div class="container">
+            <div class="wrapper">
+                <div class="row">
+                    
+                    <div class="col-md-6">
+                        <div class="feature-box">
+                            <h1 class="display-4">🖌️StyleGen</h1>
+                            <p class="lead">Transform your photos with stunning artistic styles using VGG19</p>
+                            <button type="button" class="btn btn-primary ml-2">Try StyleGen</button>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                            
+                            <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_RHdEuzVfEL.json"  background="transparent"  speed="1"  style="width: 500px; height: 500px;"  loop autoplay></lottie-player>
+                          </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--How It Works-->
+
+    <section id="working">
+        <div class="container">
+          <h2 class="text-center mb-5">How StyleGen Works</h2>
+          <div class="row">
+            <div class="col-md-6 mb-4">
+              <h3 class="text-center">Choose a Content Image</h3>
+              <p class="text-center">Select a photo you want to apply the style to</p>
+              <img src="img/content.jpg" class="img-fluid mx-auto d-block mb-3" alt="Content Image">
+            </div>
+            <div class="col-md-6 mb-4">
+              <h3 class="text-center">Choose a Style Image</h3>
+              <p class="text-center">Select a photo with the style you want to apply</p>
+              <img src="img/style.jpg" class="img-fluid mx-auto d-block mb-3" alt="Style Image">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 mb-4">
+              <h3 class="text-center">Upload Images</h3>
+              <p class="text-center">Upload the content and style images to StyleGen</p>
+              <img src="img/upload.jpg" class="img-fluid mx-auto d-block mb-3" alt="Upload Images">
+            </div>
+            <div class="col-md-6 mb-4">
+              <h3 class="text-center">Generate Artistic Image</h3>
+              <p class="text-center">Click the "Generate" button to create your artistic image</p>
+              <img src="img/generated.jpg" class="img-fluid mx-auto d-block mb-3" alt="Generated Image">
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- Photo Samples -->
+<section id="photo-samples">
+  <div class="container">
+    <h2 class="text-center mb-5">Photo Samples</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <img src="img/sample1.jpg" class="img-fluid mx-auto d-block mb-3" alt="Sample 1">
+      </div>
+      <div class="col-md-4 mb-4">
+        <img src="img/sample2.jpg" class="img-fluid mx-auto d-block mb-3" alt="Sample 2">
+      </div>
+      <div class="col-md-4 mb-4">
+        <img src="img/sample3.jpg" class="img-fluid mx-auto d-block mb-3" alt="Sample 3">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <img src="img/sample4.jpg" class="img-fluid mx-auto d-block mb-3" alt="Sample 4">
+      </div>
+      <div class="col-md-4 mb-4">
+        <img src="img/sample5.jpg" class="img-fluid mx-auto d-block mb-3" alt="Sample 5">
+      </div>
+      <div class="col-md-4 mb-4">
+        <img src="img/sample6.jpg" class="img-fluid mx-auto d-block mb-3" alt="Sample 6">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about">
+  <div class="container">
+    <h2 class="text-center mb-5">About StyleGen</h2>
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <h3 class="text-center">What is StyleGen?</h3>
+        <p>StyleGen is an image style transfer application that uses the VGG19 neural network to apply the style of one image to the content of another. The application was created using Python, Flask, and Tensorflow, and the web interface was designed using HTML, CSS, and Bootstrap.</p>
+      </div>
+      <div class="col-md-6 mb-4">
+        <h3 class="text-center">Who created StyleGen?</h3>
+        <p>StyleGen was created by John Smith, a computer science student at XYZ University. John was inspired to create StyleGen after seeing the incredible results of neural style transfer and wanted to make it accessible to everyone.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="text-center">Why use StyleGen?</h3>
+        <p>StyleGen allows you to create stunning artistic images with just a few clicks. Whether you want to create a unique piece of art for your home or just add some flair to your social media posts, StyleGen makes it easy and fun to do.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Us -->
+<section id="contact-us" style="
+margin-bottom: 20px;">
+  <div class="container">
+    <h2 class="text-center mb-5">Contact Us</h2>
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+        <form action="#" method="post" class="border p-3">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="5" placeholder="Enter your message"></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-light text-center text-lg-start">
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Copyright:
+    <a class="text-dark" href="https://deepakvishak.github.io">IamDeepak</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+</body>
+</html>

@@ -2,33 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4940b673-c379-4ef1-bfb3-d33607a4042c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../MARK 4 Exp/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MARK 4 Exp/.idea/MARK 4 Exp.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MARK 4 Exp/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MARK 4 Exp/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MARK 4 Exp/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MARK 4 Exp/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MARK 4 Exp/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MARK 4 Exp/Resources/f1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MARK 4 Exp/Resources/f2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MARK 4 Exp/Resources/image03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MARK 4 Exp/Resources/load.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MARK 4 Exp/f1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MARK 4 Exp/f2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MARK 4 Exp/homepage/MainPage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MARK 4 Exp/homepage/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MARK 4 Exp/homepage/f1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MARK 4 Exp/homepage/f2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MARK 4 Exp/homepage/image03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MARK 4 Exp/image03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MARK 4 Exp/load.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MARK 4 Exp/main_program.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MARK 4 Exp/stylegen/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MARK 4 Exp/stylegen/img1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MARK 4 Exp/stylegen/img2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MARK 4 Exp/stylegen/load.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MARK 4 Exp/stylegen/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MARK 4/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../MARK 4/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/f1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/f2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/image03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/load.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/MainPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/MainPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/f1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/f2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/image03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylegen/load.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylegen/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/stylegen/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../screenshots/Screenshot 2023-02-26 225642.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../screenshots/Screenshot 2023-02-26 225803.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../screenshots/Screenshot 2023-02-26 225959.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../screenshots/Screenshot 2023-02-26 230029.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../screenshots/Screenshot 2023-02-26 230049.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../screenshots/Untitled.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../screenshots/Untitled1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../screenshots/Untitled2.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +39,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Image Style Transfer using VGG/Project/v 2.0/MARK 5"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Image Style Transfer using VGG/Project/v 2.0/MARK 5&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

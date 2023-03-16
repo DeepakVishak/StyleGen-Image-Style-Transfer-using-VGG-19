@@ -123,34 +123,34 @@ class HowToUse:
         st.subheader("Follow these simple steps to generate stylish images:")
 
         # step 2
-        col1, col2 = st.columns(2)
-        col1.markdown("1. Click the **Multipage Options** menu on the top left corner of the app.")
-        col2.image("image03.png", width=500)
+
+        st.markdown("1. Click the **Multipage Options** menu on the top left corner of the app.")
+        st.image("1.png", width=1000)
 
         # step 3
-        col1, col2 = st.columns(2)
-        col1.markdown("2. Select the **Try StyleGen** option from the dropdown menu.")
-        col2.image("image03.png", width=500)
+
+        st.markdown("2. Select the **Try StyleGen** option from the dropdown menu.")
+        st.image("2.png", width=1000)
 
         # step 4
-        col1, col2 = st.columns(2)
-        col1.markdown("3. Upload your content image and style image in JPG/PNG/JPEG format.")
-        col2.image("image03.png", width=500)
+
+        st.markdown("3. Upload your content image and style image in JPG/PNG/JPEG format.")
+        st.image("3.png", width=1000)
 
         # step 5
-        col1, col2 = st.columns(2)
-        col1.markdown("4. Choose the number of epochs to scale the model. More epochs mean better results but longer processing time.")
-        col2.image("image03.png", width=500)
+
+        st.markdown("4. Choose the number of epochs to scale the model. More epochs mean better results but longer processing time.")
+        st.image("4.png", width=1000)
 
         # step 6
-        col1, col2 = st.columns(2)
-        col1.markdown("5. The inputs are fed into the VGG-19 model for processing. This may take some time, so please be patient.")
-        col2.image("image03.png", width=500)
+
+        st.markdown("5. The inputs are fed into the VGG-19 model for processing. This may take some time, so please be patient.")
+        st.image("5.png", width=1000)
 
         # step 7
-        col1, col2 = st.columns(2)
-        col1.markdown("6. Once the processing is complete, the output image will be displayed on the app. You can download it using the **Download** button below.")
-        col2.image("image03.png", width=500)
+
+        st.markdown("6. Once the processing is complete, the output image will be displayed on the app. You can download it using the **Download** button below.")
+        st.image("6.png", width=1000)
 
 
 class Contact:
