@@ -2,25 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4940b673-c379-4ef1-bfb3-d33607a4042c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/github.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/f1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/f2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/image03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/load.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/homepage/MainPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/MainPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/f1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/f2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/image03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylegen/load.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylegen/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/stylegen/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../screenshots/Screenshot 2023-02-26 225642.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../screenshots/Screenshot 2023-02-26 225803.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../screenshots/Screenshot 2023-02-26 225959.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../screenshots/Screenshot 2023-02-26 230029.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../screenshots/Screenshot 2023-02-26 230049.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../screenshots/Untitled.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../screenshots/Untitled1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../screenshots/Untitled2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_program.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_program.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,5 +43,16 @@
       <updated>1677416618786</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -5,6 +5,7 @@ from PIL import Image
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+import base64
 
 class json_file:
 
@@ -216,4 +217,85 @@ class Contact:
 
         # Add footer
         st.write("Thank you for contacting us. We'll be in touch soon!")
+
+class Footer:
+
+    def __init__(self):
+        pass
+
+    def footer_display(self):
+
+        # Read the icon image file
+        with open("github.png", "rb") as f1:
+            img_bytes_f1 = f1.read()
+            data_url_f1 = base64.b64encode(img_bytes_f1).decode("utf-8")
+
+        with open("linkedin.png", "rb") as f2:
+            img_bytes_f2 = f2.read()
+            data_url_f2 = base64.b64encode(img_bytes_f2).decode("utf-8")
+
+        with open("web.png", "rb") as f3:
+            img_bytes_f3 = f3.read()
+            data_url_f3 = base64.b64encode(img_bytes_f3).decode("utf-8")
+
+        # Define the HTML and CSS for the footer
+        footer_html = f"""
+        <style>
+        .footer {{
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 30px;
+            padding: 20px;
+            color: #6C757D;
+            font-size: 14px;
+            font-weight: 500;
+            text-align: center;
+        }}
+
+        .footer a {{
+            color: #6C757D;
+            text-decoration: none;
+            margin-left: 20px;
+            margin-right: 20px;
+        }}
+
+        .footer a:hover {{
+            color: #0366d6;
+        }}
+
+        .footer .icon-grid {{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }}
+
+        .footer .icon {{
+            height: 48px;
+            width: 48px;
+        }}
+
+        .footer p {{
+            margin-top: 20px;
+        }}
+        </style>
+        <div class="footer">
+            <div class="icon-grid">
+                <a href="https://github.com/DeepakVishak"><img src="data:image/png;base64,{data_url_f1}" class="icon" alt="github"></a>
+                <a href="https://www.linkedin.com/in/deepak-vishak-0417b9201/"><img src="data:image/png;base64,{data_url_f2}" class="icon" alt="linkedin"></a>
+                <a href="https://deepakvishak.github.io/"><img src="data:image/png;base64,{data_url_f3}" class="icon" alt="web"></a>
+            </div>
+            <p>&copy; 2023 All Rights Reserved</p>
+        </div>
+        """
+
+        # Add the footer to the app
+
+        st.markdown(footer_html, unsafe_allow_html=True)
+
+
+
+
 
