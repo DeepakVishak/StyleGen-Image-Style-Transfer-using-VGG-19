@@ -115,7 +115,7 @@ class HowToUse:
 
     def howtouse_display(self):
 
-        # step 1
+        
         #st.set_page_config(layout="wide")
         st.write("""""")
         st.write("""""")
@@ -123,35 +123,40 @@ class HowToUse:
         st.title("💡 How to Use StyleGen")
         st.subheader("Follow these simple steps to generate stylish images:")
 
-        # step 2
+        # step 1
 
         st.markdown("1. Click the **Multipage Options** menu on the top left corner of the app.")
         st.image("1.png", width=1000)
 
-        # step 3
+        # step 2
 
         st.markdown("2. Select the **Try StyleGen** option from the dropdown menu.")
         st.image("2.png", width=1000)
 
-        # step 4
+        # step 3
 
         st.markdown("3. Upload your content image and style image in JPG/PNG/JPEG format.")
         st.image("3.png", width=1000)
 
-        # step 5
+        # step 4
 
         st.markdown("4. Choose the number of epochs to scale the model. More epochs mean better results but longer processing time.")
         st.image("4.png", width=1000)
 
-        # step 6
+        # step 5
 
         st.markdown("5. The inputs are fed into the VGG-19 model for processing. This may take some time, so please be patient.")
         st.image("5.png", width=1000)
 
-        # step 7
+        # step 6
 
         st.markdown("6. Once the processing is complete, the output image will be displayed on the app. You can download it using the **Download** button below.")
         st.image("6.png", width=1000)
+
+        # step 7
+
+        st.markdown("7. You can check the performance of the model using **Graph Analysis** section below. Which shows total loss graph corresponds to number of epochs.")
+        st.image("7.png", width=1000)
 
 
 class Contact:
